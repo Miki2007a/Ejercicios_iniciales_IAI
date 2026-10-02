@@ -4,8 +4,8 @@ import math
 
 diametro= int(input("Inroduce el diámetro del círculo: "))
 
-area= math.pi * (diametro / 2) ** 2 
-perimetro= math.pi * diametro
+area= round(math.pi * (diametro / 2) ** 2, 1)
+perimetro= round(math.pi * diametro, 1)
 
 print("El área de tu círculo es: ", area)
 print("El perímetro de tu círculo es:", perimetro)
